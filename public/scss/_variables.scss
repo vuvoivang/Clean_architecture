@@ -1,0 +1,82 @@
+$SRC_ICONS: "src/ui/assets/icons/";
+$SRC_IMAGES: "src/ui/assets/images/";
+// primary & secondary
+$color-primary: #0b3f7e;
+$color-secondary: #343436;
+$color-secondary-2: #69686d;
+// others color
+$color-green: #26bc05;
+$color-green-bold: #0f5200;
+$color-grey: #8d8d8f;
+$color-white: #ffffff;
+$color-blue: #0068ff;
+$color-dark-blue: #0b3f7e;
+$color-text-error: #ff4740;
+$color-primary-text: #0068ff;
+$color-black: #2e2e2e;
+$color-orange: #f45207;
+$color-warning: #c83727;
+$color-grey-light: #f5f5f5;
+$color-fresh-red: #ff4740;
+$color-waiting: #e59700;
+// color input
+$color-border-input: #0068ff;
+$color-border-input-error: #ff4740;
+
+// background color
+$bg-color-app: #ffffff;
+$bg-input: #cdcfee;
+$bg-read-only-input: #f6f6f7;
+$bg-condition: #f4f9ff;
+$bg-gray: #f6f6f7;
+
+// Font-size
+$fs-sm: 12px;
+$fs-md: 16px;
+$fs-lg: 20px;
+$fs-xl: 28px;
+
+// Font-weight
+$fw-thin: 200;
+$fw-normal: 300;
+$fw-bold-1: 500;
+$fw-bold-1x1o2: 600;
+$fw-bold-2: 700;
+
+// space between elements
+$space: 16px;
+$space-1o4: $space * 0.25;
+$space-1o2: $space * 0.5;
+$space-1x1o2: $space * 1.5;
+$space-2x: $space * 2;
+
+// letter-spacing
+$ls-sm: 0.02em;
+$ls-md: 0.04em;
+
+// line-height
+$lh-sm: 18px;
+$lh-md: 21px;
+
+// font
+$font-title: "Roboto", sans-serif;
+$font-text: "Roboto", sans-serif;
+$font-base: 14px;
+
+// border-radius
+$border-radius-input: 8px;
+
+// constant height
+$header-bar-height: 45px;
+$bottom-button-height: 90px;
+$bottom-button-margin-top: $space-1x1o2;
+$bottom-navbar-height: 49px;
+
+// break points
+$breakpoints: (
+  "extra-large": 1199px,
+  "large": 991px,
+  "medium": 767px,
+  "small": 575px,
+  "extra-small": 330px,
+);
