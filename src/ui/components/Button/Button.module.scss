@@ -1,0 +1,23 @@
+.customBtn {
+  min-width: fit-content; // do not allow decrease too much
+  min-height: fit-content;
+
+  button {
+    width: 100%; // spread all
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    background-color: rgb(255, 0, 0);
+  }
+}

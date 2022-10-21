@@ -4,6 +4,8 @@ import Image from "next/image";
 import styles from "styles/Home.module.css";
 import { useCountLoading } from "~/adapters/ui/global.adapter";
 import { useGetData } from "~/application/product/getData.usecase";
+import { Button } from "../components/Button/Button";
+import { Navbar } from "../components/Navbar/Navbar";
 
 const Home: NextPage = () => {
   const countLoading = useCountLoading();
@@ -18,9 +20,10 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
         {countLoading === 0 ? (
-          <button className={styles.button} onClick={handleFetchData}>
-            Fetch Data
-          </button>
+          <>
+            <Button title="Button" />
+            <Navbar />
+          </>
         ) : (
           <p className={styles.description}>Loading...</p>
         )}
